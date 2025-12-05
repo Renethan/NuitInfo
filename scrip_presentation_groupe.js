@@ -12,7 +12,7 @@ var konamiCode = [
 ];
 
 var userInput = [];
-var redirectUrl = 'snake.html';
+var redirectUrl = './snake.html';
 
 document.addEventListener('keydown', function(e) {
     userInput.push(e.key);
