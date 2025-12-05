@@ -28,7 +28,7 @@ window.onload = function () {
     placeFood();
     document.addEventListener("keyup", changeDirection);  //for movements
     // Set snake speed
-    setInterval(update, 500 / 10);
+    setInterval(update, 1000 / 10);
 }
 
 function update() {
