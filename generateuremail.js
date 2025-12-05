@@ -7,5 +7,4 @@ function generateRandomString() {
   }
   const resultDiv = document.getElementById('resultemail');
   resultDiv.textContent = 'Email : ' + result + '@gmail.com';
-  resultDiv.style.display = 'block';
 }
